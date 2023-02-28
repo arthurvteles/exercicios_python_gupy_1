@@ -1,0 +1,24 @@
+import json
+
+with open("dados.json", encoding="utf-8") as invoicing:
+    data = json.load(invoicing)
+
+values = []
+day = []
+
+for i in data:
+    if i['valor'] != 0:
+        values.append(i['valor'])
+        day.append(i['dia'])
+
+avarage = sum(values) / len(day)
+
+count = 0
+for i in range(len(day)):
+    if values[i] > avarage:
+        count += 1
+
+print(
+    f"Number of days that the invociving is bigger thant the avarege: {count}")
+print(f"The biggest invoicing is {max(values)}")
+print(f"The shortest invoicing is {min(values)}")
