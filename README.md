@@ -1,12 +1,12 @@
 # exercicios_python_gupy_1
 
-#exercicio 2 #
+#exercicio_2 
  Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência.
 
 IMPORTANTE:
 Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
 
-#exercicio 3#
+#exercicio_3
 Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que desejar, que calcule e retorne:
 • O menor valor de faturamento ocorrido em um dia do mês;
 • O maior valor de faturamento ocorrido em um dia do mês;
@@ -17,7 +17,7 @@ a) Usar o json ou xml disponível como fonte dos dados do faturamento mensal;
 b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;
 
 
-#exercicio 4#
+#exercicio_4
 Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:
 
 SP – R$67.836,43
@@ -28,7 +28,7 @@ Outros – R$19.849,53
 
 Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora.
 
-#exercicio 5#
+#exercicio_5
  Escreva um programa que inverta os caracteres de um string.
 
 IMPORTANTE:
