@@ -1,0 +1,35 @@
+def fibonnaci(number_compare):
+
+    # test if the value is 0 or negative
+    if number_compare <= 0:
+        return None
+
+    # test if the value is an integer
+    if not isinstance(number_compare, int):
+        return None
+
+    # initializing variables
+    fib_i = 0
+    fib_j = 1
+
+    # infinite loop
+    while number_compare != 0:
+        result = fib_i + fib_j
+        fib_i = fib_j
+        fib_j = result
+
+        if result == number_compare:
+            return 1
+        if result > number_compare:
+            return 0
+
+
+fibonnaci_aux = 21
+
+aux = fibonnaci(fibonnaci_aux)
+if aux == 1:
+    print(f'{fibonnaci_aux} está na sequência')
+elif aux == 0:
+    print(f'{fibonnaci_aux} não está na sequência')
+else:
+    print(f'{fibonnaci_aux} é uma entrada inválida')
