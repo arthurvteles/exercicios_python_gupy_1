@@ -1,0 +1,15 @@
+
+def string_reverse(string):
+    if len(string) == 0:
+        return False
+
+    string_aux = ''
+
+    for i in range(len(string) - 1, -1, -1):
+        string_aux = string_aux + string[i]
+
+    return string_aux
+
+
+string = 'abcde'
+print(string_reverse(string))
