@@ -23,7 +23,7 @@ def fibonnaci(number_compare):
         if result > number_compare:
             return 0
 
-
+#exemplo
 fibonnaci_aux = 21
 
 aux = fibonnaci(fibonnaci_aux)
